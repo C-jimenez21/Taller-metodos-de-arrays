@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 300px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(198, 156, 236);
+    font-size: 1.4em;
+}
+form{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
